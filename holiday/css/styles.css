@@ -1,0 +1,26 @@
+/* Styles */
+body{
+    background-color: blue;
+    color: aqua;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container{
+    width: 80%;
+}
+
+
+h1{
+    color: aqua;
+
+}
+
+header{
+    text-align: center;
+    font-family: fantasy;
+}
+
+div, header, main, footer{
+    border: 2px solid orange;
+}
