@@ -80,15 +80,18 @@ body {
   /* Placeholder for picture tag, add your specific styles here */
   #picture-tag {
     /* Add picture tag-specific styles here */
+    color: aquamarine;
   }
   
   /* Placeholder for linked image, add your specific styles here */
   #linked-image {
     /* Add linked image-specific styles here */
+    color: blanchedalmond;
   }
   
   /* Placeholder for image as a link, add your specific styles here */
   #img-as-link {
     /* Add image as link-specific styles here */
+    color: beige;
   }
   
