@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #3c2e1e; /* Dark brown for text */
+    background-color: #f4f0ea; /* Light beige background to complement the lion's neutral tones */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #643820; /* Deep copper for the header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #b77e43; /* Warm gold for subheadings */
+    font-size: 1.8em;
+    margin-top: 40px;
+  }
+  
+  /* Section Styling */
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border: 1px solid #d9c4a5; /* Light gold border to frame the sections */
+    border-radius: 8px;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #3c2e1e; /* Deep brown text for readability */
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid #d9c4a5; /* Light gold border around image */
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #643820;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+  }
