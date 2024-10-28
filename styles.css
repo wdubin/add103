@@ -1,0 +1,249 @@
+/* Variables */
+
+:root {
+    --dark_primary: #00796b;
+    --light_primary: #b2dfdb;
+    --primary: #009688;
+    --light_text: #ffffff;
+    --accent: #ffeb3b;
+    --dark_text: #212121;
+    --head_font: "Hepta Slab", serif;
+    --p_font: "Outfit", sans-serif;
+  }
+  
+  /* CSS reset */
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* end css reset  */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-family: var(--p_font);
+    color: var(--dark_text);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: var(--head_font);
+    color: var(--accent);
+  }
+  
+  body {
+    background: #1e2601;
+    color: ivory;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  h1 {
+    color: #af4edf;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  nav a {
+    color: ivory;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 2px solid #99ab59;
+    background: #99ab49;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: "Nosifer", sans-serif;
+  }
+  header {
+    min-height: 100px;
+  }
+  .container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    min-height: 1000px;
+    max-width: 1200px;
+  }
+  
+  nav {
+    text-align: center;
+    padding: 15px;
+    color: white;
+  }
+  
+  aside {
+    width: 20%;
+    margin: 10px;
+    float: right;
+    min-height: 100px;
+  }
+  
+  figure {
+    clear: both;
+    width: 40%;
+    margin: 10px;
+    float: left;
+    padding: 15px;
+  }
+  
+  main {
+    width: 95%;
+    margin: 10px auto;
+    overflow: auto;
+  }
+  
+  footer {
+    clear: both;
+    color: orange;
+  }
+  
+  .left {
+    clear: both;
+    float: left;
+    width: 50%;
+    margin: 10px;
+  }
+
+  dt a{
+    text-decoration: none;
+    color:var(--dark_primary);
+    font-family:var(--head_font);
+  }
+  dd{
+    margin-left: 30px;
+    font-family: var(--p_font);
+  }
+  
+  dt a:hover(
+    text-decoration: underline;
+  )
