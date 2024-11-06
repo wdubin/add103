@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Forms</h1>
+      </header>
+      <main>
+        <h1>Potluck Signup</h1>
+        <p>
+          Welcome to our holiday Pot Luck. Please sign up for the dish that you
+          are bringing.
+        </p>
+        <form>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br /><br />
+          <label for="dish">Dish:</label><br />
+          <input type="text" id="dish" name="dish" /><br /><br />
+
+          <input
+            type="checkbox"
+            id="gluten-free"
+            name="gluten-free"
+            value="Gluten Free"
+          />
+          <label for="gluten-free"> Gluten Free</label><br />
+
+          <input type="checkbox" id="vegan" name="vegan" value="Vegan" />
+          <label for="vegan"> Vegan</label><br />
+
+          <input type="checkbox" id="keto" name="keto" value="Keto" />
+          <label for="keto"> Keto</label><br />
+
+          <input
+            type="checkbox"
+            id="dairy-free"
+            name="dairy-free"
+            value="Dairy Free"
+          />
+          <label for="dairy-free"> Dairy Free</label><br />
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </main>
+      <footer>
+        <p>&copy; 2024 William Dubin</p>
+      </footer>
+    </div>
+  </body>
+</html>
