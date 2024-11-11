@@ -242,3 +242,9 @@ footer {
   width: 50%;
   margin: 10px;
 }
+input[type="text"] {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
