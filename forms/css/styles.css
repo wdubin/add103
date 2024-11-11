@@ -170,13 +170,13 @@ h3 {
 }
 
 body {
-  background: rgb(10, 10, 0);
-  color: rgb(156, 156, 121);
+  background: #1e2601;
+  color: ivory;
   line-height: 1.5;
   font-size: 20px;
 }
 h1 {
-  color: #b518d4;
+  color: #af4edf;
   text-align: center;
   font-size: 50px;
 }
