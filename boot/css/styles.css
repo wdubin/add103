@@ -1,0 +1,20 @@
+body {
+    background: rgb(4, 33, 4);
+  }
+  
+  .container-fluid {
+    background-color: rgb(109, 72, 5);
+    color: beige;
+    min-height: 50px;
+    margin-bottom: 20px;
+  }
+  .container {
+    background: beige;
+    color: rgb(32, 30, 30);
+  }
+  
+  .container-fluid h1 {
+    text-align: center;
+    color: white;
+  }
+  
