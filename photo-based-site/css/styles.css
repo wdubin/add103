@@ -21,7 +21,7 @@ body {
   
   ul {
     list-style-type: none;
-    margin-left: 30%;
+    /* margin-left: 30%; */
   }
   
   ul a {
@@ -31,7 +31,7 @@ body {
     color: rgb(240, 240, 182);
   }
   
-  nav {
+  /* nav {
     text-align: center;
   }
   
@@ -51,7 +51,7 @@ body {
   nav a:hover {
     color: #7f0600;
     background: #efefa4;
-  }
+  } */
   
   .left {
     float: left;
