@@ -33,6 +33,21 @@
           </ul>
         </div>
       </nav>
+      <div class="container mt-3">
+        <h3>Tooltip Example</h3>
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Hooray!">
+          Hover over me!
+        </button>
+      </div>
+      
+      <script>
+      // Initialize tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+      </script>
       <h2>States</h2>
       <p>
         A state of the United States is one of the 50 constituent entities that shares its 
